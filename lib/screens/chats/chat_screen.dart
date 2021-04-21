@@ -1,5 +1,6 @@
 import 'package:media_chat_app/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:media_chat_app/screens/login_registration_screen.dart';
 import 'package:media_chat_app/screens/profile.dart';
 import 'package:media_chat_app/screens/welcome_screen.dart';
 import 'components/body.dart';
@@ -123,7 +124,7 @@ class _ChatScreenState extends State<ChatScreen> {
             ),
             onTap: () {
               _auth.signOut();
-              Navigator.pushNamed(context, WelcomeScreen.id);
+              Navigator.pushNamed(context, LoginOrRegistrationScreen.id);
             },
           )
         ],
