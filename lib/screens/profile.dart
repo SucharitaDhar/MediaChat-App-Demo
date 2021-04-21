@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/rendering.dart';
 import 'package:media_chat_app/constants.dart';
-import 'package:media_chat_app/screens/chats/chat_screen.dart';
 
 class Profile extends StatefulWidget {
   static String id = 'profile';
@@ -59,7 +58,7 @@ class _ProfileState extends State<Profile> {
         children: <Widget>[
           CircleAvatar(
             radius: 50.0,
-            backgroundImage: AssetImage("assets/images/user_2.png"),
+            backgroundImage: AssetImage("assets/images/sender.png"),
           ),
           // Edit Name and About Capability
           ListTile(
@@ -123,7 +122,7 @@ class _ProfileState extends State<Profile> {
         elevation: 0,
         focusElevation: 0,
         onPressed: () {
-          ChatScreen();
+          //Edit
         },
         backgroundColor: kPrimaryColor,
         child: Icon(

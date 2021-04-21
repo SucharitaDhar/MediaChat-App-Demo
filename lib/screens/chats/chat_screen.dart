@@ -1,6 +1,7 @@
 import 'package:media_chat_app/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:media_chat_app/screens/profile.dart';
+import 'package:media_chat_app/screens/welcome_screen.dart';
 import 'components/body.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:media_chat_app/theme_changer.dart';
@@ -47,7 +48,7 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     ThemeChanger themeChanger = Provider.of<ThemeChanger>(context);
     return Scaffold(
-      appBar: buildAppBar(),
+      appBar: buildAppBar(_selectedIndex),
       drawer: Drawer(
           child: Column(
         children: [
@@ -58,13 +59,8 @@ class _ChatScreenState extends State<ChatScreen> {
               color: kPrimaryColor,
               child: Row(
                 children: [
-                  Container(
-                    width: 50,
-                    height: 50,
-                    decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        image: DecorationImage(
-                            image: AssetImage("assets/images/user_2.png"))),
+                  CircleAvatar(
+                    backgroundImage: AssetImage('assets/images/sender.png'),
                   ),
                   SizedBox(width: 15),
                   Text(
@@ -125,7 +121,10 @@ class _ChatScreenState extends State<ChatScreen> {
               padding: const EdgeInsets.only(left: 20.0),
               child: Text('Logout', style: kListTileTextStyle),
             ),
-            onTap: () {},
+            onTap: () {
+              _auth.signOut();
+              Navigator.pushNamed(context, WelcomeScreen.id);
+            },
           )
         ],
       )),
@@ -162,7 +161,7 @@ class _ChatScreenState extends State<ChatScreen> {
         BottomNavigationBarItem(
           icon: CircleAvatar(
             radius: 14,
-            backgroundImage: AssetImage("assets/images/user_2.png"),
+            backgroundImage: AssetImage("assets/images/sender.png"),
           ),
           label: "Profile",
         ),
@@ -171,9 +170,9 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 
   // Build AppBar
-  AppBar buildAppBar() {
+  AppBar buildAppBar(selectedIndex) {
     return AppBar(
-      title: Text("Messages"),
+      title: selectedIndex == 0 ? Text("Messages") : Text("Profile"),
       actions: [
         IconButton(
           icon: Icon(Icons.search),

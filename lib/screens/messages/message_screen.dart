@@ -1,14 +1,30 @@
 import 'package:media_chat_app/constants.dart';
 import 'package:flutter/material.dart';
 
-import 'body.dart';
+import 'message_body.dart';
 
-class MessagesScreen extends StatelessWidget {
+class MessagesScreen extends StatefulWidget {
+  MessagesScreen({
+    this.friendName,
+    this.friendImagePath,
+    this.lastSeenTime,
+  });
+
+  final String friendName;
+  final String friendImagePath;
+  final String lastSeenTime;
+
+  @override
+  _MessagesScreen createState() => _MessagesScreen();
+}
+
+class _MessagesScreen extends State<MessagesScreen> {
   @override
   Widget build(BuildContext context) {
+    final String imagePath = widget.friendImagePath;
     return Scaffold(
       appBar: buildAppBar(),
-      body: Body(),
+      body: MessageBody(imagePath: imagePath),
     );
   }
 
@@ -19,18 +35,18 @@ class MessagesScreen extends StatelessWidget {
         children: [
           BackButton(),
           CircleAvatar(
-            backgroundImage: AssetImage("assets/images/user_2.png"),
+            backgroundImage: AssetImage(widget.friendImagePath),
           ),
           SizedBox(width: kDefaultPadding * 0.75),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Kristin Watson",
-                style: TextStyle(fontSize: 16),
+                widget.friendName,
+                style: TextStyle(fontSize: 15),
               ),
               Text(
-                "Active 3m ago",
+                widget.lastSeenTime,
                 style: TextStyle(fontSize: 12),
               )
             ],

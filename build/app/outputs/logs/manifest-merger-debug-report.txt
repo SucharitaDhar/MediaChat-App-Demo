@@ -6,11 +6,14 @@ INJECTED from /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/a
 INJECTED from /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from [:firebase_auth] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:path_provider] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/67d49d65617af7c991a58cb964e019ba/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:20.0.4] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/438dec01543e3bd832212d4321844134/jetified-firebase-auth-20.0.4/AndroidManifest.xml:17:1-83:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/5226d8e82853791dc618c1e0c737c1c0/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/d7aadf51245ff92704dcd56b1275c699/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/8332821906df7953b841cd54c03f25bf/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/41d44ec659f792ce002be26c4cef7108/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -70,6 +73,8 @@ application
 ADDED from /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/AndroidManifest.xml:9:5-32:19
 MERGED from [:firebase_auth] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
 MERGED from [:cloud_firestore] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
@@ -138,6 +143,10 @@ INJECTED from /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/a
 INJECTED from /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_auth] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -148,6 +157,8 @@ MERGED from [androidx.multidex:multidex:2.0.0] /Users/sucharitadhar/.gradle/cach
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/67d49d65617af7c991a58cb964e019ba/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-auth:20.0.4] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/438dec01543e3bd832212d4321844134/jetified-firebase-auth-20.0.4/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:20.0.4] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/438dec01543e3bd832212d4321844134/jetified-firebase-auth-20.0.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/5226d8e82853791dc618c1e0c737c1c0/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/5226d8e82853791dc618c1e0c737c1c0/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/d7aadf51245ff92704dcd56b1275c699/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/d7aadf51245ff92704dcd56b1275c699/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/8332821906df7953b841cd54c03f25bf/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
@@ -266,6 +277,30 @@ ADDED from [:firebase_auth] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-
 		ADDED from [:firebase_auth] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_auth] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
 ADDED from [:cloud_firestore] /Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value

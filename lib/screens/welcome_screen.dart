@@ -15,14 +15,7 @@ class WelcomeScreen extends StatelessWidget {
             Spacer(flex: 2),
             Hero(tag: 'logo', child: Image.asset("assets/images/AppLogo.jpg")),
             Spacer(flex: 3),
-            Text(
-              "SPLASH",
-              textAlign: TextAlign.center,
-              style: Theme.of(context)
-                  .textTheme
-                  .headline5
-                  .copyWith(fontWeight: FontWeight.bold),
-            ),
+            Text("SPLASH", textAlign: TextAlign.center, style: kAppNameStyle),
             Spacer(),
             Text(
               "Welcome to our Messaging App",

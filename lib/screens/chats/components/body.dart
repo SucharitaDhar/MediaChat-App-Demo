@@ -17,7 +17,11 @@ class Body extends StatelessWidget {
               onPressed: () => Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => MessagesScreen(),
+                      builder: (context) => MessagesScreen(
+                        friendName: messagesData[index].name,
+                        friendImagePath: messagesData[index].image,
+                        lastSeenTime: messagesData[index].time,
+                      ),
                     ),
                   )),
         ),

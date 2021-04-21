@@ -8,12 +8,12 @@
         "source": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/99ae2181f9ec712d16fa4fb55df77f47/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
-    },
-    {
         "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/99ae2181f9ec712d16fa4fb55df77f47/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/layout_browser_actions_context_menu_row.xml.flat",
@@ -124,12 +124,12 @@
         "source": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/res/drawable/launch_background.xml"
     },
     {
-        "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
         "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/99ae2181f9ec712d16fa4fb55df77f47/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
@@ -172,12 +172,12 @@
         "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/99ae2181f9ec712d16fa4fb55df77f47/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
-        "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/99ae2181f9ec712d16fa4fb55df77f47/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
         "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
         "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/99ae2181f9ec712d16fa4fb55df77f47/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/99ae2181f9ec712d16fa4fb55df77f47/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
@@ -322,6 +322,10 @@
     {
         "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/32b6d3a1d555b218f74e6f047b725b9b/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/xml_flutter_image_picker_file_paths.xml.flat",
+        "source": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/image_picker/intermediates/packaged_res/debug/xml/flutter_image_picker_file_paths.xml"
     },
     {
         "merged": "/Users/sucharitadhar/Documents/GitHub/MediaChat-App-Demo/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
