@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68951345998",
+    "project_id": "splash-3e61e",
+    "storage_bucket": "splash-3e61e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68951345998:android:cc2cc5226e911cc3b26c1f",
+        "android_client_info": {
+          "package_name": "co.sucharita.splash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68951345998-b5tkgqelb27kegd2lt0tss893b7cbihj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ0qWUWpLit7_h43K40zHXozT6YLqWieU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68951345998-b5tkgqelb27kegd2lt0tss893b7cbihj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

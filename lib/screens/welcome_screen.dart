@@ -1,82 +1,69 @@
-import 'package:flash_chat/screens/login_screen.dart';
-import 'package:flash_chat/screens/registration_screen.dart';
+import 'package:media_chat_app/constants.dart';
+import 'package:media_chat_app/screens/login_registration_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:media_chat_app/components/rounded_button.dart';
+// import 'package:firebase_core/firebase_core.dart';
 
-class WelcomeScreen extends StatefulWidget {
+class WelcomeScreen extends StatelessWidget {
   static String id = 'welcome_screen';
-  @override
-  _WelcomeScreenState createState() => _WelcomeScreenState();
-}
-
-class _WelcomeScreenState extends State<WelcomeScreen>
-    with SingleTickerProviderStateMixin {
-  AnimationController controller;
-  Animation animation;
-
-  @override
-  void initState() {
-    super.initState();
-    controller = AnimationController(
-      duration: Duration(seconds: 1),
-      vsync: this,
-      upperBound: 100,
-    );
-
-    animation = ColorTween(begin: Colors.blueGrey, end: Colors.white)
-        .animate(controller);
-    controller.forward();
-
-    controller.addListener(() {
-      setState(() {});
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: animation.value,
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 24.0),
+      body: SafeArea(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Row(
-              children: <Widget>[
-                Hero(
-                  tag: 'logo',
-                  child: Container(
-                    child: Image.asset('images/logo.png'),
-                    height: 60.0,
-                  ),
-                ),
-                TypewriterAnimatedTextKit(
-                  text: ['SPLASH'],
-                  textStyle: TextStyle(
-                    fontSize: 45.0,
-                    fontWeight: FontWeight.w900,
-                  ),
-                ),
-              ],
+          children: [
+            Spacer(flex: 2),
+            Hero(tag: 'logo', child: Image.asset("assets/images/AppLogo.jpg")),
+            Spacer(flex: 3),
+            Text(
+              "SPLASH",
+              textAlign: TextAlign.center,
+              style: Theme.of(context)
+                  .textTheme
+                  .headline5
+                  .copyWith(fontWeight: FontWeight.bold),
             ),
-            SizedBox(
-              height: 48.0,
+            Spacer(),
+            Text(
+              "Welcome to our Messaging App",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Theme.of(context)
+                    .textTheme
+                    .bodyText1
+                    .color
+                    .withOpacity(0.64),
+              ),
             ),
-            RoundedButton(
-              title: 'Login',
-              colour: Colors.lightBlueAccent,
-              onPressed: () {
-                Navigator.pushNamed(context, LoginScreen.id);
-              },
-            ),
-            RoundedButton(
-              title: 'Register',
-              colour: Colors.blueAccent,
-              onPressed: () {
-                Navigator.pushNamed(context, RegistrationScreen.id);
-              },
+            Spacer(flex: 3),
+            FittedBox(
+              child: TextButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, LoginOrRegistrationScreen.id);
+                  },
+                  child: Row(
+                    children: [
+                      Text(
+                        "Skip",
+                        style: Theme.of(context).textTheme.bodyText1.copyWith(
+                            color: Theme.of(context)
+                                .textTheme
+                                .bodyText1
+                                .color
+                                .withOpacity(0.8)),
+                      ),
+                      SizedBox(width: kDefaultPadding / 4),
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        size: 16,
+                        color: Theme.of(context)
+                            .textTheme
+                            .bodyText1
+                            .color
+                            .withOpacity(0.8),
+                      )
+                    ],
+                  )),
             )
           ],
         ),
